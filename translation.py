@@ -7,8 +7,8 @@ class Translation(object):
     SET_CUSTOM_USERNAME_PASSWORD = """<b>If You Want To Download Premium Videos, Provide In The Following Format:
 URL | filename | username | password</b>"""
     NOYES_URL = "<b>This Is Dam Slow Link Bro! I Wont Waste My Time On This. Get Me A Fast Link</b>"
-    DOWNLOAD_START = "<b>Downloading Ur Files 🔻</b>"
-    UPLOAD_START = "<b>Uploading Ur Files 🔺</b>"
+    DOWNLOAD_START = "<b>Downloading...</b>"
+    UPLOAD_START = "<b>Uploading...</b>"
     RCHD_BOT_API_LIMIT ="<b>Size Greater Than Maximum Allowed Size. Neverthless, Trying To Upload.</b>"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\n<b>Sorry. But, I Cannot Upload Files Greater Than 2GB Due To Telegram API Limitations.</b>"
     AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>File Uploaded Successfully</b>"
@@ -19,15 +19,13 @@ URL | filename | username | password</b>"""
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ <b>Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media Cleared Succesfully.</b>"
     SAVED_RECVD_DOC_FILE = "<b>Document Downloaded Successfully.</b>"
-    CUSTOM_CAPTION_UL_FILE = " <b>Bot Created By \n   👉 @HxBots</b>"
+    CUSTOM_CAPTION_UL_FILE = ""
     NO_CUSTOM_THUMB_NAIL_FOUND = "<b>No Custom ThumbNail Found.</b>"
     NO_VOID_FORMAT_FOUND = "Can You Check The Url? <b>I Am Unable To Detect Video Format From UrL.</b> If You Think This Could Be A Bug Please Report On https://t.me/HxSupport"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
 --------
-Telegram ID: <code>{}</code>
-Plan name: 75GB Per Month
-Expires on: 10/12/2021
+Apna hi bot Hai
 --------"""
     HELP_USER = """<b>There Are Multiple Things I Can Do:</b>\n\n <b>All Supported Video Formats of https://rg3.github.io/youtube-dl/supportedsites.html</b>
 
